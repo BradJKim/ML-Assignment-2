@@ -125,6 +125,7 @@ for row in dbTest:
     class_pred = 'Yes' if (yes_prob >= no_prob) else 'No'
     class_prob = yes_prob if (yes_prob >= no_prob) else no_prob
     
-    matrix.append([row[0], row[1], row[2], row[3], row[4], class_pred, class_prob])
+    if class_prob > 0.75:
+        matrix.append([row[0], row[1], row[2], row[3], row[4], class_pred, class_prob])
             
 print(tabulate(matrix, headers=["Day", "Outlook", "Temp", "Humidity", "Wind", "Prediction", "Probability"], tablefmt="grid"))

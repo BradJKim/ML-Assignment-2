@@ -3,7 +3,7 @@
 # FILENAME: decision_tree_2.py
 # SPECIFICATION: Decision Tree for different data sets
 # FOR: CS 4210- Assignment #2
-# TIME SPENT: 2 hrs
+# TIME SPENT: 4 hrs
 #-----------------------------------------------------------*/
 
 #IMPORTANT NOTE: DO NOT USE ANY ADVANCED PYTHON LIBRARY TO COMPLETE THIS CODE SUCH AS numpy OR pandas. You have to work here only with standard
